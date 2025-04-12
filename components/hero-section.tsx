@@ -12,10 +12,10 @@ export default function HeroSection() {
   const [textIndex, setTextIndex] = useState(0)
 
   // Array berisi 3 teks yang akan diketik secara bergantian
-  const texts = ["Selamat Datang di Portofolio Saya", "Content Creator & Gamer", "Let's Connect & Collaborate!"]
+  const texts = ["Selamat Datang di Portofolio Saya", "Haloww!!:3 aku AiraaCheisyaa", "Let's Connect & Collaborate!"]
 
-  const typingSpeed = 500
-  const deletingSpeed = 50
+  const typingSpeed = 1000
+  const deletingSpeed = 1000
   const pauseDelay = 1500
   const textRef = useRef(0)
   const currentText = texts[textIndex]
