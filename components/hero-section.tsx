@@ -14,7 +14,7 @@ export default function HeroSection() {
   // Array berisi 3 teks yang akan diketik secara bergantian
   const texts = ["Selamat Datang di Portofolio Saya", "Content Creator & Gamer", "Let's Connect & Collaborate!"]
 
-  const typingSpeed = 100
+  const typingSpeed = 50
   const deletingSpeed = 50
   const pauseDelay = 1500
   const textRef = useRef(0)
@@ -92,8 +92,7 @@ export default function HeroSection() {
               {showCursor && <span className="typing-cursor"></span>}
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0">
-              Selamat datang di portofolio digital saya. Mari terhubung dan berkolaborasi untuk menciptakan sesuatu yang
-              luar biasa bersama!
+              Makasih ya udah klik link websitenyaa, eh iya btw selamat datang di website portofolio simple ku, website yang saya buat ini untuk membuat kenangan kenangan yang tak terlupakan untuk anak cucuku hehehe. Dan yg pastinya bukan itu sajaa!!, website ini saya fungsikan untuk menyimpan atau memamerkan (anjay pamer gatuh) yahh intinyaaa untuk show keahlianku siapa tau perusahaan perusahaan luar membutuhkankuu hahahaha, selamat melihattt lihattt! :3
             </p>
           </motion.div>
 
